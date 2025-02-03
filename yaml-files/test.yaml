@@ -1,0 +1,7 @@
+path: C:\Users\Arjun\Desktop\AI\
+train: labeled/images 
+val: test/images 
+test: test/images 
+
+nc: 2  # Number of classes
+names: ["weed", "crop"]
