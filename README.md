@@ -15,6 +15,7 @@ This repository implements a semi-supervised learning approach for weed detectio
 ├── requirements.txt           # Dependencies
 └── README.md                  # This file
 ```
+The `FINAL.ipynb` contains the training outputs performed on Kaggle. The notebook contains all the code with training as well as inference with proper file paths. This `notebook.ipynb` can be used for inference on the test data using the `yaml` files.
 
 ## Installation
 
