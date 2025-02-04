@@ -1,4 +1,4 @@
-path: C:\Users\Arjun\Desktop\AI\  
+path: .\  
 train: dataset_updated/images  
 val: test/images 
 
