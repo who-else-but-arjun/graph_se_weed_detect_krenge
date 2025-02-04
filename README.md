@@ -1,6 +1,6 @@
 # Semi-Supervised Object Detection with Graph Neural Networks
 
-This repository implements a semi-supervised learning approach for weed detection using YOLO and Graph Neural Networks. The system leverages both labeled and unlabeled data to improve detection performance through pseudo-labeling. The dataset is available [here](). The detailed project report can be found [here]().
+This repository implements a semi-supervised learning approach for weed detection using YOLO and Graph Neural Networks. The system leverages both labeled and unlabeled data to improve detection performance through pseudo-labeling. The dataset is available [here](https://drive.google.com/drive/folders/1cGY1QHqNFiB2qkeL_rS0KtPDv54qk-Ks?usp=sharing). The detailed project report can be found [here](https://drive.google.com/file/d/1M5xeYK6yCKu2GVMWlYwQ_jafZMuT-DvM/view?usp=sharing).
 
 ## Project Structure
 ```
