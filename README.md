@@ -50,6 +50,7 @@ data/
 - `dataset.yaml`: Initial training configuration
 - `dataset_updated.yaml`: Configuration for final training
 - `test.yaml`: Test dataset configuration
+
 Edit the path in yaml files according to your setup. Try with the complete path in case the relative path is not read.
 3. Run the training:
 ```bash
@@ -78,6 +79,20 @@ python main.py \
 - `--gnn_hidden_dim`: Hidden dimension for GNN (default: 128)
 - `--confidence_threshold`: Threshold for pseudo-labeling (default: 0.9)
 
+or
+
+Run the initial cells in `notebook.ipynb` until the imports. After that run the last cells. Check that the path of the model passed to the YOLO is present at the path. 
+`model = YOLO("train_final/best.pt")
+metrics = model.val(data="yaml-files/test.yaml", device="cuda")`
+set the device to cpu in case running on cpu 
+`path: <path to the dataset directory>
+train: labeled/images 
+val: test/images 
+test: test/images 
+nc: 2  # Number of classes
+names: ["weed", "crop"]
+`
+![](EXTRA\eg.png)
 ## Method Overview
 
 1. **Initial YOLO Training**: Train YOLO model on labeled data
