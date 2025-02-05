@@ -85,7 +85,8 @@ Run the initial cells in `notebook.ipynb` until the imports. After that run the 
 `model = YOLO("train_final/best.pt")
 metrics = model.val(data="yaml-files/test.yaml", device="cuda")`
 set the device to cpu in case running on cpu 
-`path: <path to the dataset directory>
+`#test.yaml
+path: <path to the dataset directory>
 train: labeled/images 
 val: test/images 
 test: test/images 
