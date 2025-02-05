@@ -92,7 +92,7 @@ test: test/images
 nc: 2  # Number of classes
 names: ["weed", "crop"]
 `
-![](EXTRA\eg.png)
+![](EXTRA/eg.png)
 ## Method Overview
 
 1. **Initial YOLO Training**: Train YOLO model on labeled data
