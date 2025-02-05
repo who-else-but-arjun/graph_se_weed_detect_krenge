@@ -50,7 +50,7 @@ data/
 - `dataset.yaml`: Initial training configuration
 - `dataset_updated.yaml`: Configuration for final training
 - `test.yaml`: Test dataset configuration
-
+Edit the path in yaml files according to your setup. Try with the complete path in case the relative path is not read.
 3. Run the training:
 ```bash
 python main.py \
